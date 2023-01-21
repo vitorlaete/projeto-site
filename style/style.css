@@ -74,6 +74,10 @@ div{
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.466);
 }
 
+#div-index{
+    margin-bottom: 60px;
+}
+
 img{
     display: block;
     margin: auto;
