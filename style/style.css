@@ -53,6 +53,7 @@ header nav a:hover{
 
 #pq-div{
     background-color: #ffffff;
+    margin-bottom: 40px;
 }
 
 #pq{
@@ -77,6 +78,7 @@ img{
     display: block;
     margin: auto;
     padding-top: 10px;
+    padding-bottom: 20px;
     width: 98%;
 }
 
@@ -84,7 +86,7 @@ div cite{
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.6em;
-    padding: 0px 5px 5px 25px;
+    padding: 0px 5px 15px 25px;
 }
 
 #p-marco{
