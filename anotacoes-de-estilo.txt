@@ -1,24 +1,2 @@
 Anotações para o site [MINIMALISTA, LIMPO, MONOCROMÁTICO]
 
-[CABEÇALHO]
-~ "Fino" com o nav;
-~ Icone na lateral - atribuir direitos ao site: https://www.rawpixel.com/
-~ fonte do site do devon e com sombra;
-~ Cores em estilo dark mode.
-
-[CORPO]
-~ div com espaçamento quase em 100%;
-~ dark mode continua, mas em espaço onde tiver texto colocar cores quentes;
-~ letras padrões, sem muito detalhe;
-~ usar imagens e vídeos sempre que possível;
-~ tentar separar em tópicos, com títulos chamativos.
-
-[NAV]
-~ Porquê? 
-    simples e com um estilo sofisticado;
-~ Anotações
-    separar por tópicos e manter textos curtos, com exemplos, referências e explicativo(de movo que uma criança entenda).
-
-[INÍCIO]
-~ imagem da árvore (free) - atribuir direitos ao site: https://libreshot.com/
-.
