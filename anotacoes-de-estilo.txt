@@ -1,2 +1,23 @@
 Anotações para o site [MINIMALISTA, LIMPO, MONOCROMÁTICO]
 
+============================================================================
+[PARA TODAS AS PÁGINAS]
+
+    <title>JustLearn</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+
+    <header id="header">
+        <h1 id="h1-header">DORMIR <del>NÃO</del> DÁ EXP</h1>
+        <nav>
+            <a href="index.html">INÍCIO</a>
+            <a href="aprendizado.html">APRENDIZADO</a>
+            <a href="#">CONTATO</a>
+        </nav>
+    </header>
+
+    <footer>
+        Criado por <strong><em><a href="https://github.com/vitorlaete" target="_blank" rel="external">Vitor Laete</a></em></strong>
+        <br>
+        <span id="icon-share"><a href="https://www.flaticon.com/free-icons/machine-learning" title="machine learning icons" target="_blank" rel="nofollow" >Machine learning icons created by VectorPortal - Flaticon</a></span>
+    </footer>

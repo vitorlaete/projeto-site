@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
     --color1: #464747;
     --color2: #2C2C2C;   
     --color3: #1e90ff;
+    --font-h1: 'Crimson Pro', serif;
+    --font-2: 'Montserrat', sans-serif;
 }
 
 body{
@@ -20,15 +22,20 @@ header{
 }
 
 header h1{
-    font-family: 'Major Mono Display', monospace;
+    font-family: var(--font-h1);
+    font-weight: lighter;
+    font-size: 3em;
     text-align: center;
     color: #ffffff;
     text-shadow: 1px 2px 7px black;
+    margin-top: 4px;
+    margin-bottom: 0;
 }
 
 header nav a{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-h1);
     color: #ffffff;
+    font-weight: lighter;
     padding: 5px;
     text-decoration: none;
     text-shadow: 1px 2px 6px black;
@@ -41,18 +48,14 @@ header nav a:hover{
     border-radius: 3px;
 }
 
+/*Alinhamento do parágrafo de Marco Aurélio*/
 #p-marco-aurelio{
-    text-align: center;
-}
-
-#cite-marco-aurelio{
-    display: block;
     text-align: center;
 }
 
 div{
     min-width: 285px;
-    max-width: 1000px;
+    max-width: 800px;
     height: 100%;
     margin: auto;
     background-color: #464747;
@@ -64,15 +67,17 @@ div{
     margin-bottom: 60px;
 }
 
-/*Cite da pagina index*/
+/*Cite da pagina index - Marco Aurélio*/
 div cite{
     color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-2);
     font-size: 0.6em;
     padding: 0px 5px 15px 25px;
+    display: block;
+    text-align: center;
 }
 
-/*Quote referente a pagina index*/
+/*Quote referente a pagina index - Marco Aurélio*/
 p q{
     color: #ffffff;
     text-align: center;
@@ -84,11 +89,47 @@ img{
     margin: auto;
     padding-top: 10px;
     padding-bottom: 20px;
-    width: 98%;
+    width: 45%;
+}
+
+/*Esta é a parte que configura elementos da aba aprendizado*/
+
+#ful{
+    margin-top: 0;
+}
+
+#div-ap{
+    padding-bottom: 10px;
+}
+
+#div-ap a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#div-ap .posts h2:hover{
+    display: inline;
+    text-decoration: underline;
+    background-color: #8b8d8d;
+    border-radius: 3px;
+    color: #2C2C2C;
+}
+
+.posts h2{
+    margin-top: 0;
+    padding: 5px;
+}
+
+#icon-share > a{
+    display: block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    text-align: right;
 }
 
 footer{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-2);
     text-align: center;
     background-color: var(--color2);
     margin-top: 46px;
@@ -103,7 +144,7 @@ footer a:visited{
 }
 
 footer strong:hover{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-2);
     padding: 4px;
     background-color: #ffffff;
     color: #2C2C2C;
