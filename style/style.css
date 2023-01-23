@@ -93,6 +93,14 @@ img{
 }
 
 /*Esta é a parte que configura elementos da aba aprendizado*/
+#h1-ap{
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    margin-top: 0;
+    font-size: 2.5em;
+    text-decoration: underline;
+}
 
 #ful{
     margin-top: 0;
@@ -120,6 +128,44 @@ img{
     padding: 5px;
 }
 
+/*História da internet*/
+
+#history-h1{
+    font-family: var(--font-h1);
+    text-align: center;
+    font-size: 2.4em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.432);
+}
+
+#internet-art{
+    max-width: 700px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.486);
+}
+
+.h2-internet{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#internet-art li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-internet{
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#internet-art .p-internet a{
+    text-decoration: none;
+    color: black;
+}
+
+/*partes do rodapé*/
 #icon-share > a{
     display: block;
     color: black;
